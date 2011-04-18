@@ -1,5 +1,5 @@
 # Inherit AOSP device configuration for ascend.
-$(call inherit-product, device/huawei/ascend/device_ascend.mk)
+$(call inherit-product, device/huawei/ascend/device_ascendm.mk)
 
 # Inherit some common cyanogenmod stuff.
 $(call inherit-product, vendor/cyanogen/products/common.mk)
@@ -10,7 +10,7 @@ $(call inherit-product, vendor/cyanogen/products/common.mk)
 #
 # Setup device specific product configuration.
 #
-PRODUCT_NAME := cyanogen_ascend
+PRODUCT_NAME := cyanogen_ascendm
 PRODUCT_BRAND := Huawei
 PRODUCT_DEVICE := ascend
 PRODUCT_MODEL := M860
@@ -23,7 +23,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=huawei_ascend BUILD_ID=FRG83 BUILD_
 # Set ro.modversion
 #
     PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CM6-$(shell date +%m%d%Y)-Ascend
+        ro.modversion=CM6-$(shell date +%m%d%Y)-Ascend-MetroPCS
 
 #
 # Copy legend specific prebuilt files

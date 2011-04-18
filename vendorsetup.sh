@@ -1,5 +1,6 @@
 add_lunch_combo cyanogen_ace-eng
-add_lunch_combo cyanogen_ascend-eng
+add_lunch_combo cyanogen_ascendc-eng
+add_lunch_combo cyanogen_ascendm-eng
 add_lunch_combo cyanogen_bravo-eng
 add_lunch_combo cyanogen_bravoc-eng
 add_lunch_combo cyanogen_buzz-eng
