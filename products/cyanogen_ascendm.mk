@@ -22,8 +22,11 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=huawei_ascend BUILD_ID=FRG83 BUILD_
 #
 # Set ro.modversion
 #
-    PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CM6-$(shell date +%m%d%Y)-Ascend-MetroPCS
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.modversion=CM6-Ascend-MetroPCS-OC-$(shell date +%m%d%Y)
+
+#PRODUCT_PROPERTY_OVERRIDES += \
+#	ro.modversion=CM6-Ascend-MetroPCS-$(shell date +%m%d%Y)
 
 #
 # Copy legend specific prebuilt files
